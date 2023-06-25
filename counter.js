@@ -2,9 +2,9 @@ const Counter = {
     data() {
       return {
         count: 0
-      }
+      };
     },
-    template: "The counter is: {{count}}",
+    template: "<p>The counter is: {{ count }}</p>",
     created() {
       setInterval(() => {
         this.count += 1;
@@ -13,4 +13,5 @@ const Counter = {
   };
   
   export default Counter;
+  
   
