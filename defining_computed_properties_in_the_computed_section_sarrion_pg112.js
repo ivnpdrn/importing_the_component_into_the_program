@@ -53,3 +53,6 @@ export default Counter;
 // is then directly used in the component template within the doube braces {{ and }}
 // A method defined in the methods section can use the other methods of this section
 // or the reactive variables of the data section by prefixing then with the this keyword
+
+// defining computed properties in the computed section:
+// Every second leads to the automatic modification of the countX2 variable thanks to its definition in the computed section.
