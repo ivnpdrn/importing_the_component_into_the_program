@@ -77,6 +77,22 @@ export default Counter;
 
 // This makes it possible to be able to transmit in the attributes any types of values: numeric values, character strings, arrays, or objects.
 
+// * the v-if directive is used to specify a condition. If true, the HTML element (or component) will be inserted into the HTML page.
+// Otherwise, it will not be present.
+
+// Let's use the v-if directive to indicate that we want to display the value of the counter
+// only for values less than or equal to 20. As soon as the value 20 is exceeded, the counter is no longer displayed.
+
+// the template include the v-if and v-else directives.
+
+// Using backtick ' and ' to define the template avoids having to manage the concatenation of character strings on several lines.
+
+// The <span> element on which the v-if directive is applied will be included in the HTML page only if the following condition
+// is true: if count<=20. Beyond 20, only the time will be displayed without the counter value.
+// The v-else directive is used to indicate an alternative when the condition expressed in 
+// v-if is false. The element on which the v-else directive is used will be inserted into the HTML page if 
+// the condition expressed in v-if is false.
+
 
 
 
